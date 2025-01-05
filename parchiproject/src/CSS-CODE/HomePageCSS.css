@@ -21,6 +21,10 @@
     border-radius: 10px;
 }
 
+.FirstBox:hover{
+    cursor: pointer;
+}
+
 .Image-VC{
     width: 100%;
     object-fit: cover;

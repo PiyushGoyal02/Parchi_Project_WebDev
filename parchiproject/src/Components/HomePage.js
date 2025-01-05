@@ -4,6 +4,7 @@ import Location from "./HomePage/Location"
 import VideoCall from "../Assets/VideoCall.jpg"
 import FindDoctor from "../Assets/DSC03239.jpeg"
 import Surgeries from "../Assets/minimally-invasive-cardiac-surgery.jpg"
+import HorizantalSlider from "./HomePage/HorizantalSlider"
 
 
 function HomePage(){
@@ -49,7 +50,9 @@ function HomePage(){
                     </div>
                 </div>
             </div>
-            
+
+            {/* Horizental Slider */}
+            <HorizantalSlider/>
         </div>
     )
 }
