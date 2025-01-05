@@ -1,0 +1,55 @@
+.NavbarDiv{
+    padding: 2%;
+}
+
+.BluePractoLogo{
+
+    width: 140px;
+}
+
+.NavbarContantLine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.LeftSideNavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Find-Video-Surgeries-Text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.RightNavBarContant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.NavbarRightSideContant{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.Login-Signup-Button{
+    height: 32px;
+    width: 105px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    background-color: transparent;
+}
+
+.Login-Signup-Button:hover{
+    cursor: pointer;
+}
