@@ -1,12 +1,15 @@
 import Navbar from "./Navbar"
+import "../CSS-CODE/HomePageCSS.css"
+import Location from "./HomePage/Location"
 
 
 function HomePage(){
     return (
         <div>
             <Navbar/>
-            Home Page
-
+            <hr className="HR-Tag-HomePage"/>
+            <Location/>
+            
         </div>
     )
 }

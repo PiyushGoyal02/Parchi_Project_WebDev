@@ -1,0 +1,47 @@
+/* General styling for the container */
+.location-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; 
+  margin: 0 auto; 
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Styling for each input group */
+.input-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Icon styling */
+.icon {
+  position: absolute;
+  left: 10px;
+  font-size: 1rem;
+  color: #008080;
+}
+
+/* Input field styling */
+.input-field {
+  padding: 0.5rem 0.75rem 0.5rem 2.5rem; 
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 250px;
+}
+
+/* Input field hover and focus effects */
+.input-field:focus {
+  border-color: #008080;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Placeholder styling */
+.input-field::placeholder {
+  color: #999;
+  font-style: italic;
+}
