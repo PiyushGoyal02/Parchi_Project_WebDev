@@ -3,3 +3,35 @@
     border: 0.5px solid #dadada;
     opacity: 60%;
 }
+
+.ThreeBoxParentDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.FirstBox{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+    width: 200px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+.Image-VC{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.Boxes-Text{
+    margin-left: 10px;
+    line-height: 20px;
+}

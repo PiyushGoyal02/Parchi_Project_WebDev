@@ -11,8 +11,8 @@ function Location() {
           type="text"
           id="location"
           name="location"
-          placeholder="Enter location"
-          className="input-field"
+          placeholder="location"
+          className="input-field location"
         />
       </div>
 
@@ -22,7 +22,7 @@ function Location() {
           type="text"
           id="doctor"
           name="doctor"
-          placeholder="Enter doctor name"
+          placeholder="Search doctors, clinics, hospitals etc..."
           className="input-field"
         />
       </div>
