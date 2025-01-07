@@ -48,7 +48,7 @@ function Navbar (){
                             <FaAngleDown />
                         </div>
 
-                        <button className="Login-Signup-Button">Login/Signup</button>
+                        <button onClick={() => Navigator("/LoginSignup")} className="Login-Signup-Button">Login/Signup</button>
                     </div>
                 </div>
 

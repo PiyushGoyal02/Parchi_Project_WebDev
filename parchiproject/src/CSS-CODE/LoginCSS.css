@@ -1,0 +1,241 @@
+.Login-Signup-Texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 1%;
+    border-style: none;
+    border-radius: 5px;
+    width: 150px;
+    background-color: transparent;
+    color: #008080;
+    font-size: 17px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+/* When a button is active (clicked) */
+.button.active {
+    border-bottom: 3px solid #008080;
+    color: black;
+    transition: 0.5s;
+}
+
+/* Login Section */
+
+.LoginImage-PNG{
+    width: 550px;
+}
+
+.LoginSideSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.login-form h2 {
+  color: #008080;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  /* display: flex; */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  border-color: #008080;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-options label {
+  font-size: 14px;
+  color: #555;
+}
+
+.form-options a {
+  font-size: 14px;
+  color: #008080;
+  text-decoration: none;
+}
+
+.form-options a:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #006666;
+}
+
+.login-button:active {
+  background-color: #004d4d;
+}
+
+
+
+/* Signup Section */
+
+.SignupSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.SignupImage-PNG{
+    width: 550px;
+}
+
+.join-practo-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.join-practo-container h2 {
+  color: #008080;
+  margin-bottom: 10px;
+}
+
+.doctor-link {
+  font-size: 14px;
+  color: #666;
+}
+
+.doctor-link a {
+  color: #008080;
+  text-decoration: none;
+}
+
+.doctor-link a:hover {
+  text-decoration: underline;
+}
+
+.join-practo-form {
+  text-align: left;
+}
+
+.join-practo-form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.join-practo-form input,
+.join-practo-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.mobile-input {
+  display: flex;
+  gap: 10px;
+}
+
+.mobile-input select {
+  flex: 0.3;
+}
+
+.mobile-input input {
+  flex: 0.7;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.terms {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.terms a {
+  color: #008080;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.send-otp-btn {
+  background-color: #008080;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.send-otp-btn:hover {
+  background-color: #006666;
+}
