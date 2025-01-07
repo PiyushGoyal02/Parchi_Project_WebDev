@@ -1,0 +1,109 @@
+/* Container for the search bar */
+
+.SearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field styling */
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+/* Search button styling */
+.search-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+/* Search icon styling */
+.search-button  {
+  font-size: 18px;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  color: #008080;
+}
+
+.MostSearched h1 {
+    margin-left: 3.5%;
+    margin-top: 3%;
+}
+
+.PictureImageDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 2%; */
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.DoctorImage-NameText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 5px;
+}
+
+.DrImage{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.AllSpecialities{
+    padding: 1%;
+    width: 300px;
+    background-color: #008080;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.5s;
+    border-style: none;
+}
+
+.buttonAllSpecialities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.AllSpecialities:hover{
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.FindADoctorForHealth{
+    margin-left: 3.5%;
+    margin-top: 3%;
+}

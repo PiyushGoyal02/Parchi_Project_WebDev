@@ -5,13 +5,17 @@ import VideoCall from "../Assets/VideoCall.jpg"
 import FindDoctor from "../Assets/DSC03239.jpeg"
 import Surgeries from "../Assets/minimally-invasive-cardiac-surgery.jpg"
 import HorizantalSlider from "./HomePage/HorizantalSlider"
+import { useNavigate } from "react-router-dom"
+import FindDoctorNearyou from "./FindDoctorNearYou"
 
 
 function HomePage(){
+
+    const Navigator = useNavigate()
     return (
         <div>
             <Navbar/>
-            <hr className="HR-Tag-HomePage"/>
+            {/* <hr className="HR-Tag-HomePage"/> */}
             <Location/>
 
             {/* Three Button ClickAble */}
@@ -28,7 +32,7 @@ function HomePage(){
                     </div>
                 </div>
 
-                <div className="FirstBox">
+                <div onClick={()=> Navigator("/FindDoctor")} className="FirstBox">
                     <img
                         src={FindDoctor}
                         className="Image-VC"
@@ -52,6 +56,15 @@ function HomePage(){
             </div>
 
             {/* Horizental Slider */}
+
+            <div className="Text-Button">
+                <div>
+                    <h2>Consult top doctors online for any health concern</h2>
+                    <p className="PrivateOnlineText">Private online consultations with verified doctors in all specialists</p>
+                </div>
+
+                <button className="ViewAllSpecialities">View All Specialities</button>
+            </div>
             <HorizantalSlider/>
         </div>
     )

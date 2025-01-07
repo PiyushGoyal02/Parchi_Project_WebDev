@@ -1,8 +1,11 @@
 import BluePracto from "../Assets/logo.png"
 import { FaAngleDown } from "react-icons/fa";
 import "../CSS-CODE/NavbarCSS.css"
+import { useNavigate } from "react-router-dom";
 
 function Navbar (){
+
+    const Navigator = useNavigate();
     return (
         <div>
             
@@ -12,7 +15,7 @@ function Navbar (){
 
                     <div className="LeftSideNavBar">
                         {/* Practo Logo */}
-                        <div>
+                        <div onClick={() => Navigator("/")}>
                             <img
                                 className="BluePractoLogo"
                                 src={BluePracto}
@@ -51,6 +54,7 @@ function Navbar (){
 
 
             </div>
+            <hr className="HR-Tag-HomePage"/>
         </div>
     )
 }
