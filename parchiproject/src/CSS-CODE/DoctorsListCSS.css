@@ -1,0 +1,64 @@
+.BlueShadebox{
+    background-color: #008080;
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.SevenSixtySevenText-BookAppointmentText{
+    /* display: flex;
+    align-items: center; */
+    margin-top: 50px;
+    margin-left: 70px;
+    line-height: 5px;
+}
+
+.SevenSixtySevenText-BookAppointmentText h1 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.VerifiedIcon-Text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.VerifiedIcon-Text p {
+    font-size: 17px;
+}
+
+.DoctorsImage{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.HR-Tag{
+    margin: 3%;
+}
+
+.DoctorsDetailsDiv{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 90px;
+    margin-top: 40px;
+    gap: 15px;
+    line-height: 5px;
+}
+
+.DoctorTextContact .CosmeticDental {
+    color: #008080;
+    font-size: 22px;
+}
+
+.DoctorTextContact span{
+    font-weight: 300;
+}
+
+.BoldSection {
+    font-weight: bold;
+}

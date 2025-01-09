@@ -1,5 +1,6 @@
 import Navbar from "../Components/Navbar"
 import "../CSS-CODE/FindDoctorNearyouCSS.css"
+import { useNavigate } from "react-router-dom";
 import { IoIosSearch } from "react-icons/io";
 import DoctorImage from "../Assets/istockphoto-1346124900-612x612.jpg"
 import HorizantalSlider from "./HomePage/HorizantalSlider";
@@ -11,14 +12,13 @@ import Performance from "../Assets/top-speciality-sexology.svg"
 import ChildNotFelling from "../Assets/top-speciality-pediatric.svg"
 
 function FindDoctorNearyou (){
+
+    const Navigator = useNavigate();
+
     return (
         <div>
 
             <Navbar/>
-
-            <div className="MostSearched">
-                <h1>Most Searched Doctor</h1>
-            </div>
 
             <div className="SearchBar">
 
@@ -31,7 +31,43 @@ function FindDoctorNearyou (){
 
             </div>
 
+            <div className="MostSearched">
+                <h1>Most Searched Doctor</h1>
+            </div>
+
             <div className="PictureImageDiv">
+
+                <div className="DoctorImage-NameText">
+                    <img
+                        src={DoctorImage}
+                        className="DrImage"
+                    />
+                    <h4>Naman Garg</h4>
+                </div>
+
+                <div className="DoctorImage-NameText">
+                    <img
+                        src={DoctorImage}
+                        className="DrImage"
+                    />
+                    <h4>Piyush Goyal</h4>
+                </div>
+
+                <div className="DoctorImage-NameText">
+                    <img
+                        src={DoctorImage}
+                        className="DrImage"
+                    />
+                    <h4>Mudit Bansal</h4>
+                </div>
+
+                <div className="DoctorImage-NameText">
+                    <img
+                        src={DoctorImage}
+                        className="DrImage"
+                    />
+                    <h4>Ayush Aggrawal</h4>
+                </div>
 
                 <div className="DoctorImage-NameText">
                     <img
@@ -66,53 +102,19 @@ function FindDoctorNearyou (){
                 </div>
             </div>
 
-
-            <div className="PictureImageDiv">
-
-                <div className="DoctorImage-NameText">
-                    <img
-                        src={DoctorImage}
-                        className="DrImage"
-                    />
-                    <h4>Naman Garg</h4>
-                </div>
-
-                <div className="DoctorImage-NameText">
-                    <img
-                        src={DoctorImage}
-                        className="DrImage"
-                    />
-                    <h4>Piyush Goyal</h4>
-                </div>
-
-                <div className="DoctorImage-NameText">
-                    <img
-                        src={DoctorImage}
-                        className="DrImage"
-                    />
-                    <h4>Mudit Bansal</h4>
-                </div>
-
-                <div className="DoctorImage-NameText">
-                    <img
-                        src={DoctorImage}
-                        className="DrImage"
-                    />
-                    <h4>Ayush Aggrawal</h4>
-                </div>
-            </div>
-
-            <div className="buttonAllSpecialities">
+            {/* <div className="buttonAllSpecialities">
                 <button className="AllSpecialities">View All Specialities</button>
-            </div>
+            </div> */}
 
             <div className="FindADoctorForHealth">
                 <h1>Find a Doctor for health problem</h1>
             </div>
 
+
+            {/* Body Problem icons */}
             <div className="ProblemIconParentDiv">
 
-                <div className="ProblemIconDiv">
+                <div onClick={() => Navigator('/doctorslist')} className="ProblemIconDiv">
                     <img
                         src={AcneAndPimple}
                         className="ProblemIcons"
@@ -160,10 +162,6 @@ function FindDoctorNearyou (){
                     <p>Child Felling</p>
                 </div>
 
-            </div>
-
-
-            <div className="ProblemIconParentDiv">
 
                 <div className="ProblemIconDiv">
                     <img

@@ -116,7 +116,7 @@ function Login() {
                 />
 
                 <div className="checkbox-container">
-                  <input type="checkbox" id="promotions" defaultChecked />
+                  {/* <input type="checkbox" id="promotions" defaultChecked /> */}
                   <label htmlFor="promotions">
                     Receive relevant offers and promotional communication from
                     Practo
