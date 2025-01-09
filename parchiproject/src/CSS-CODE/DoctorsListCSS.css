@@ -62,3 +62,43 @@
 .BoldSection {
     font-weight: bold;
 }
+
+.Thumbup-NinetyEightText{
+    width: 60px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Button-PatientText{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ImageTextContant-BookAppointmentButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BookAppointmentButton{
+    width: 180px;
+    height: 50px;
+    background-color: #008080;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    color: white;
+    margin-right: 150px;
+}
+
+.BookAppointmentButton:hover{
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+}
