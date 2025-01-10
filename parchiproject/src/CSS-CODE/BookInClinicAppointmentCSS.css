@@ -1,0 +1,317 @@
+/* Parent Container */
+.ParentDivBookInClinic {
+    background-color: #dadada;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+    padding: 20px; 
+}
+
+/* Right Side Box Content */
+.LeftSideBoxContantBookAppointment {
+    width: 90%;
+    max-width: 450px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Title Section with Icon */
+.HousePluslogo-BookInClinicText {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.PlusHouseDiv {
+    font-size: 24px;
+    color: #008080;
+}
+
+.HousePluslogo-BookInClinicText p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Date and Time Section */
+.DateAndTimeSection {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.DateAndTimeSection p {
+    margin: 5px 0;
+}
+
+.ChangeDateAndTimeText {
+    font-size: 14px;
+    color: #008080;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Doctor Image and Text Section */
+.DrImageAndText {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.DoctorImageDiv {
+    flex-shrink: 0;
+}
+
+.DoctorImagePic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #008080;
+}
+
+.DrImageAndText div p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+/* Address Section */
+.LeftSideBoxContantBookAppointment > div:last-child p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.LeftSideBoxContantBookAppointment > div:last-child span {
+    font-weight: normal;
+    color: #555;
+}
+
+/* .RightSideSectionBookInClinic{
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 350px;
+    height: 500px;
+} */
+
+.RightSideSectionBookInClinic {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.ApplySectionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ApplyLogoText {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.OfferIcon {
+  font-size: 24px;
+  color: #008080;
+}
+
+.ApplyTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ApplyDescription {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.ApplyButton {
+  font-size: 14px;
+  font-weight: bold;
+  color: #008080;
+  cursor: pointer;
+}
+
+.BillDetails {
+  margin-top: 20px;
+}
+
+.BillTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.BillItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.original-price {
+  font-size: 14px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.FreeTag {
+  font-size: 14px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.ServiceNote {
+  font-size: 12px;
+  color: #777;
+}
+
+.TotalPayment {
+  margin-top: 20px;
+}
+
+.PaymentSummary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SaveMessage {
+  font-size: 14px;
+  color: #008080;
+  margin-top: 10px;
+}
+
+.AppointmentDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.PatientInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.PatientIcon {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #008080;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AppointmentText p:first-child {
+  font-size: 14px;
+  color: #555;
+}
+
+.PatientName {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ChangeButton {
+  font-size: 14px;
+  font-weight: bold;
+  color: #008080;
+  cursor: pointer;
+}
+
+.PaymentActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.AmountDetails {
+  text-align: right;
+}
+
+.FinalAmount {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ViewBill {
+  font-size: 14px;
+  color: #008080;
+  cursor: pointer;
+}
+
+.ConfirmButtonContainer {
+  text-align: center;
+}
+
+.ConfirmButton {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ConfirmButton:hover {
+  background-color: #14b5b5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .RightSideSectionBookInClinic {
+    padding: 15px;
+  }
+
+  .ApplySectionBox {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .PaymentActions {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .AppointmentDetails {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
