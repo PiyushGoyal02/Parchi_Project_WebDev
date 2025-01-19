@@ -1,6 +1,6 @@
 /* Parent Container */
 .ParentDivBookInClinic {
-    background-color: #dadada;
+    background-color: #f0f0f5;
     min-height: 100vh;
     display: flex;
     align-items: center; 
@@ -314,4 +314,136 @@ hr {
     flex-direction: column;
     align-items: flex-start;
   }
+}
+
+
+
+
+
+/* After Confirm Appoint Button Click */
+
+.appointment-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.verified-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header-text {
+  font-size: 24px;
+  color: #008080;
+  font-weight: bold;
+}
+
+.details-section p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.appointment-id {
+  font-weight: bold;
+  color: #008080;
+}
+
+.prime-icon {
+  font-weight: bold;
+  color: #008080;
+}
+
+.prime-benefits-section {
+  margin: 20px 0;
+}
+
+.prime-benefits-section h3 {
+  font-size: 18px;
+  color: #008080;
+  margin-bottom: 10px;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.promise-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.contact-section {
+  margin: 20px 0;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  color: #555;
+}
+
+.value {
+  color: #333;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 25px;
+}
+
+.cancel-button,
+.reschedule-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.reschedule-button {
+  background-color: #008080;
+  color: #fff;
 }
