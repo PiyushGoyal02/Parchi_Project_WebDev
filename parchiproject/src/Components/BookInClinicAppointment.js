@@ -8,12 +8,18 @@ import { useState } from "react";
 import VerifiedIcon from "../Assets/verified.png";
 import { MdVerified } from "react-icons/md";
 import { CgSandClock } from "react-icons/cg";
+import { useNavigate } from "react-router-dom";
 
 function BookInClinicAppointment() {
-  const [ButtonClickAfter, setButtonClickAfter] = useState(false);
+  const Navigator = useNavigate();
+  const [buttonClickAfter, setButtonClickAfter] = useState(false);
 
-  function ButtonClickAppointmentDone() {
+  function handleButtonClickAppointmentDone() {
     setButtonClickAfter(true);
+  }
+
+  function handleCancelButtonClick() {
+    Navigator('/cancelAppointment')
   }
 
   return (
@@ -69,7 +75,7 @@ function BookInClinicAppointment() {
           </div>
         </div>
 
-        {ButtonClickAfter === false ? (
+        {buttonClickAfter === false ? (
           <div>
             <div className="RightSideSectionBookInClinic">
               <div className="ApplySectionBox">
@@ -135,7 +141,7 @@ function BookInClinicAppointment() {
                   </div>
                   <div className="ConfirmButtonContainer">
                     <button
-                      onClick={ButtonClickAppointmentDone}
+                      onClick={handleButtonClickAppointmentDone}
                       className="ConfirmButton"
                     >
                       Confirm Clinic Visit
@@ -209,7 +215,9 @@ function BookInClinicAppointment() {
               </div>
 
               <div className="action-buttons">
-                <button className="cancel-button">Cancel Appointment</button>
+                <button onClick={handleCancelButtonClick} className="cancel-button">
+                  Cancel Appointment
+                </button>
                 <button className="reschedule-button">
                   Reschedule Appointment
                 </button>
@@ -217,6 +225,7 @@ function BookInClinicAppointment() {
             </div>
           </div>
         )}
+
       </div>
     </div>
   );

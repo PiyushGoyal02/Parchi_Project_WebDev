@@ -1,101 +1,101 @@
 /* Parent Container */
 .ParentDivBookInClinic {
-    background-color: #f0f0f5;
-    min-height: 100vh;
-    display: flex;
-    align-items: center; 
-    justify-content: space-evenly; 
-    padding: 20px; 
+  background-color: #f0f0f5;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
 /* Right Side Box Content */
 .LeftSideBoxContantBookAppointment {
-    width: 90%;
-    max-width: 450px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #333;
+  width: 90%;
+  max-width: 450px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
 /* Title Section with Icon */
 .HousePluslogo-BookInClinicText {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .PlusHouseDiv {
-    font-size: 24px;
-    color: #008080;
+  font-size: 24px;
+  color: #008080;
 }
 
 .HousePluslogo-BookInClinicText p {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
 }
 
 /* Date and Time Section */
 .DateAndTimeSection {
-    margin-bottom: 20px;
-    font-size: 16px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 .DateAndTimeSection p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .ChangeDateAndTimeText {
-    font-size: 14px;
-    color: #008080;
-    cursor: pointer;
-    text-decoration: underline;
+  font-size: 14px;
+  color: #008080;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Doctor Image and Text Section */
 .DrImageAndText {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 .DoctorImageDiv {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .DoctorImagePic {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #008080;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #008080;
 }
 
 .DrImageAndText div p {
-    font-size: 14px;
-    line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin: 15px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 15px 0;
 }
 
 /* Address Section */
 .LeftSideBoxContantBookAppointment > div:last-child p {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 10px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0 0;
 }
 
 .LeftSideBoxContantBookAppointment > div:last-child span {
-    font-weight: normal;
-    color: #555;
+  font-weight: normal;
+  color: #555;
 }
 
 /* .RightSideSectionBookInClinic{
@@ -315,10 +315,6 @@ hr {
     align-items: flex-start;
   }
 }
-
-
-
-
 
 /* After Confirm Appoint Button Click */
 

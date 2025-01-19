@@ -1,0 +1,96 @@
+
+.CancelAppointmentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
+  background-color: #f0f0f5;
+}
+
+.cancellation-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.appointment-details p {
+  font-size: 18px;
+  color: #555;
+  margin: 12px 0;
+}
+
+.appointment-details b {
+  color: #008080;
+}
+
+.reason-section {
+  margin-top: 30px;
+}
+
+.reason-text {
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.reason-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reason-options div {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  accent-color: #008080;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 16px;
+  color: #444;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #008080;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.cancel-button:hover {
+  background-color: #333;
+}
+
+.cancel-button:focus {
+  outline: none;
+}
+
+.cancel-button:active {
+  transform: scale(0.98);
+}
+

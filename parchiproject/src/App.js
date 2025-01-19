@@ -5,6 +5,7 @@ import FindDoctorNearyou from './Components/FindDoctorNearYou';
 import Login from './Components/Login-Signup/Login';
 import DoctorsList from './Components/DoctorsList';
 import BookInClinicAppointment from './Components/BookInClinicAppointment';
+import CancelAppointment from './Components/CancelAppointment';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/LoginSignup' element={<Login/>}></Route>
         <Route path='/doctorslist' element={<DoctorsList/>}></Route>
         <Route path='/boookinclinicappointment' element={<BookInClinicAppointment/>}></Route>
+        <Route path='/cancelAppointment' element={<CancelAppointment/>}></Route>
       </Routes>
     </div>
   )
