@@ -1,45 +1,53 @@
+.WebSiteDesign {
+  display: block;
+}
+
+.SmartPhoneUI {
+  display: none;
+}
+
 .Login-Signup-Texts {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
 }
 
 .button {
-    padding: 1%;
-    border-style: none;
-    border-radius: 5px;
-    width: 150px;
-    background-color: transparent;
-    color: #008080;
-    font-size: 17px;
-    transition: 0.5s;
-    cursor: pointer;
+  padding: 1%;
+  border-style: none;
+  border-radius: 5px;
+  width: 150px;
+  background-color: transparent;
+  color: #008080;
+  font-size: 17px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .button:hover {
-    border-radius: 10px;
-    transition: 0.5s;
+  border-radius: 10px;
+  transition: 0.5s;
 }
 
 /* When a button is active (clicked) */
 .button.active {
-    border-bottom: 3px solid #008080;
-    color: black;
-    transition: 0.5s;
+  border-bottom: 3px solid #008080;
+  color: black;
+  transition: 0.5s;
 }
 
 /* Login Section */
 
-.LoginImage-PNG{
-    width: 550px;
+.LoginImage-PNG {
+  width: 550px;
 }
 
-.LoginSideSection{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.LoginSideSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .login-container {
@@ -121,18 +129,16 @@
   background-color: #004d4d;
 }
 
-
-
 /* Signup Section */
 
-.SignupSection{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.SignupSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.SignupImage-PNG{
-    width: 550px;
+.SignupImage-PNG {
+  width: 550px;
 }
 
 .join-practo-container {
@@ -238,4 +244,160 @@
 
 .send-otp-btn:hover {
   background-color: #006666;
+}
+
+/* Media Query For Mobile Phone */
+
+@media (max-width: 782px) {
+  .WebSiteDesign {
+    display: none;
+  }
+
+  .SmartPhoneUI {
+    display: block;
+    /* overflow-y: hidden ; */
+  }
+
+  .BackGroundColor {
+    background-color: #008080;
+    height: 32vh;
+    width: 100%;
+    /* overflow-y: hidden */
+  }
+
+  .whitePractoLogo {
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .LoginIcon {
+    width: 180px;
+  }
+
+  .SignInIcon {
+    width: 180px;
+    /* margin-left: 25px; */
+  }
+
+  .Login-Signup-OptionsButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  /* Login CSS Code */
+
+  .login-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    margin-top: 50px;
+  }
+
+  .login-form h2 {
+    font-size: 20px; /* Slightly reduce heading size */
+    margin-bottom: 15px;
+  }
+
+  .form-group input {
+    padding: 8px; /* Adjust padding for smaller inputs */
+    font-size: 13px;
+  }
+
+  .form-options {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start;
+    gap: 10px; /* Add spacing between elements */
+  }
+
+  .form-options label {
+    font-size: 13px; /* Reduce label font size */
+    text-align: start;
+  }
+
+  .form-options a {
+    font-size: 13px; /* Reduce link font size */
+  }
+
+  .login-button {
+    padding: 8px; /* Adjust button padding */
+    font-size: 15px; /* Reduce button font size */
+  }
+
+  /* SignUp CSS Code */
+
+  .join-practo-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .join-practo-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .doctor-link {
+    font-size: 12px;
+  }
+
+  .join-practo-form {
+    text-align: left;
+  }
+
+  .join-practo-form label {
+    font-size: 14px;
+    margin: 8px 0 4px;
+  }
+
+  .join-practo-form input,
+  .join-practo-form select {
+    font-size: 13px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-input {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .mobile-input select,
+  .mobile-input input {
+    flex: 1;
+  }
+
+  .checkbox-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-container input {
+    margin-bottom: 5px;
+  }
+
+  .terms {
+    font-size: 11px;
+    margin-bottom: 15px;
+  }
+
+  .send-otp-btn {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .send-otp-btn:hover {
+    background-color: #006666;
+  }
 }
