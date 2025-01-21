@@ -53,3 +53,12 @@
 .Login-Signup-Button:hover{
     cursor: pointer;
 }
+
+
+/* Tab Media Query CSS code  */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .Find-Video-Surgeries-Text{
+        display: none;
+    }
+}
