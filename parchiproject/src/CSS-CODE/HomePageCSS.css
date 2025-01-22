@@ -1,62 +1,206 @@
-.HR-Tag-HomePage{
-    margin-top: -1%;
-    border: 0.5px solid #dadada;
-    opacity: 60%;
+.MobilePhoneHomePage {
+  display: none;
 }
 
-.ThreeBoxParentDiv{
+.WebSiteHomePage {
+  display: block;
+}
+
+.HR-Tag-HomePage {
+  margin-top: -1%;
+  border: 0.5px solid #dadada;
+  opacity: 60%;
+}
+
+.ThreeBoxParentDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.FirstBox {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+  width: 200px;
+  height: 310px;
+  border-radius: 10px;
+}
+
+.FirstBox:hover {
+  cursor: pointer;
+}
+
+.Image-VC {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 180px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Boxes-Text {
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.Text-Button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4%;
+  line-height: 15px;
+}
+
+.PrivateOnlineText {
+  color: grey;
+}
+
+.ViewAllSpecialities {
+  padding: 1.3%;
+  border-radius: 5px;
+  border: 1px solid #008080;
+  background-color: transparent;
+  color: #008080;
+  cursor: pointer;
+}
+
+/* Media query For Mobile Phone It's CSS Code */
+
+@media (max-width: 782px) {
+  .WebSiteHomePage {
+    display: none;
+  }
+
+  .MobilePhoneHomePage {
+    display: block;
+  }
+
+  .ColorHadingBox {
+    background-color: #008080;
+    height: 190px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  .ContactMenu-LocationVibe {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ConteactMenuParentDiv {
+    padding-left: 15px;
+  }
+
+  .ContactMenuCircleDiv {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
-    margin-top: 60px;
-}
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #dadada;
+  }
 
-.FirstBox{
+  .PerosnIcon {
+    font-size: 30px;
+  }
+
+  .LocationDiv {
+    margin-top: 13px;
+    margin-left: 65px;
+  }
+
+  .LocationDiv {
+    font-size: 23px;
+    color: #dadada;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .LocationDiv p {
+    font-size: 500;
+  }
+
+  .InputTagDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+  }
+
+  .SearchInput {
+    width: 75%;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: all 0.3s ease;
+  }
+
+  /* Add hover effect */
+  .SearchInput:hover {
+    border-color: #888;
+  }
+
+  /* Add focus effect */
+  .SearchInput:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+
+  /* Placeholder styling */
+  .SearchInput::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+
+  .FirstBox {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     transition: box-shadow 0.3s ease;
-    width: 200px;
-    height: 310px;
+    width: 150px; /* Adjusted for smaller screens */
+    height: 240px; /* Adjusted for smaller screens */
     border-radius: 10px;
-}
+  }
 
-.FirstBox:hover{
+  .FirstBox:hover {
     cursor: pointer;
-}
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle hover effect */
+  }
 
-.Image-VC{
+  .Image-VC {
     width: 100%;
+    height: 120px; /* Adjusted for proportion */
     object-fit: cover;
     object-position: center;
-    height: 180px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
 
-}
+  .Boxes-Text {
+    margin: 10px; /* Consistent margin */
+    line-height: 18px; /* Adjusted for smaller text spacing */
+    text-align: center; /* Center-align text for better layout */
+  }
 
-.Boxes-Text{
-    margin-left: 10px;
-    line-height: 20px;
-}
+  .Boxes-Text h3 {
+    font-size: 16px; /* Adjusted for readability */
+    margin: 10px 0 5px; /* Add spacing around the heading */
+  }
 
-.Text-Button{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4%;
-    line-height: 15px;
-}
+  .Boxes-Text p {
+    font-size: 14px; /* Smaller font for mobile */
+    color: #555; /* Slightly muted text color */
+  }
 
-.PrivateOnlineText{
-    color: grey;
-}
-
-.ViewAllSpecialities{
-    padding: 1.3%;
-    border-radius: 5px;
-    border: 1px solid #008080;
-    background-color: transparent;
-    color: #008080;
-    cursor: pointer;
+  
 }

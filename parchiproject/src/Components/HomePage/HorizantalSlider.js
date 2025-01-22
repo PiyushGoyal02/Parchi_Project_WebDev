@@ -17,8 +17,9 @@ function HorizantalSlider (){
                         src={AcneAndPimple}
                         className="ProblemIcons"
                     />
-                    <p>Acne, Pimple or <br/> skin issues</p>
-                    <p className="CONSULTNOW">CONSULT NOW</p>
+                    <p className="MobilePhoneParagraphtag">Acne <br/> skin pimple</p>
+                    <p className="WebsiteParagraphText">Acne, Pimple or <br/> skin issues</p>
+                    <p className="CONSULTNOW WebsiteParagraphText">CONSULT NOW</p>
                 </div>
 
                 <div className="ProblemIconDiv">
@@ -26,8 +27,9 @@ function HorizantalSlider (){
                         src={Depreesion}
                         className="ProblemIcons"
                     />
-                    <p>Depreesion or <br/> anxiety</p>
-                    <p className="CONSULTNOW">CONSULT NOW</p>
+                    <p className="MobilePhoneParagraphtag">Depreesion <br/> anxiety</p>
+                    <p className="WebsiteParagraphText">Depreesion or <br/> anxiety</p>
+                    <p className="CONSULTNOW WebsiteParagraphText">CONSULT NOW</p>
                 </div>
 
                 <div className="ProblemIconDiv">
@@ -35,8 +37,9 @@ function HorizantalSlider (){
                         src={ColdAndCough}
                         className="ProblemIcons"
                     />
-                    <p>Cold Cough or <br/> fever</p>
-                    <p className="CONSULTNOW">CONSULT NOW</p>
+                    <p className="MobilePhoneParagraphtag">Cold <br/> Fever</p>
+                    <p className="WebsiteParagraphText">Cold Cough or <br/> fever</p>
+                    <p className="CONSULTNOW WebsiteParagraphText">CONSULT NOW</p>
                 </div>
 
                 <div className="ProblemIconDiv">
@@ -44,8 +47,9 @@ function HorizantalSlider (){
                         src={GirlsPeriods}
                         className="ProblemIcons"
                     />
-                    <p>Period doubts or<br/>Pregnancy</p>
-                    <p className="CONSULTNOW">CONSULT NOW</p>
+                    <p className="MobilePhoneParagraphtag">Peroid <br/> Pregnancy</p>
+                    <p className="WebsiteParagraphText">Period doubts or<br/>Pregnancy</p>
+                    <p className="CONSULTNOW WebsiteParagraphText">CONSULT NOW</p>
                 </div>
 
                 <div className="ProblemIconDiv">
@@ -53,8 +57,9 @@ function HorizantalSlider (){
                         src={Performance}
                         className="ProblemIcons"
                     />
-                    <p>Performance<br/>issues in bed</p>
-                    <p className="CONSULTNOW">CONSULT NOW</p>
+                    <p className="MobilePhoneParagraphtag">Issues <br/> in bed</p>
+                    <p className="WebsiteParagraphText">Performance<br/>issues in bed</p>
+                    <p className="CONSULTNOW WebsiteParagraphText">CONSULT NOW</p>
                 </div>
 
                 <div className="ProblemIconDiv">
@@ -62,8 +67,9 @@ function HorizantalSlider (){
                         src={ChildNotFelling}
                         className="ProblemIcons"
                     />
-                    <p>Child Not Felling<br/>well</p>
-                    <p className="CONSULTNOW">CONSULT NOW</p>
+                    <p className="MobilePhoneParagraphtag">Child <br/> Felling</p>
+                    <p className="WebsiteParagraphText">Child Not Felling<br/>well</p>
+                    <p className="CONSULTNOW WebsiteParagraphText">CONSULT NOW</p>
                 </div>
 
             </div>

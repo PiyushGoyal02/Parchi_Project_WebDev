@@ -7,6 +7,10 @@
     padding: 3%;
 }
 
+.MobilePhoneParagraphtag{
+    display: none;
+}
+
 .ProblemIconDiv{
     display: flex;
     align-items: center;
@@ -20,4 +24,42 @@
 
 .CONSULTNOW{
     color: #008080;
+}
+
+.WebsiteParagraphText{
+    display: block;
+}
+
+
+/* For screens with max width of 782px */
+@media (max-width: 782px) {
+
+  .ProblemIconParentDiv {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto; 
+    padding: 10px 5%; 
+    margin-top: 22px;
+  }
+
+  .ProblemIcons {
+    width: 85px;
+    margin-bottom: 5px; 
+  }
+
+  .MobilePhoneParagraphtag{
+    display: block;
+    text-align: center;
+  }
+
+  .CONSULTNOW {
+    display: none;
+  }
+
+  .WebsiteParagraphText{
+    display: none;
+  }
+
 }
