@@ -10,10 +10,19 @@ import Depreesion from "../Assets/12-mental-wellness.png"
 import GirlsPeriods from "../Assets/irregular-painful+period.png"
 import Performance from "../Assets/top-speciality-sexology.svg"
 import ChildNotFelling from "../Assets/top-speciality-pediatric.svg"
+import { useTypewriter } from "react-simple-typewriter";
 
 function FindDoctorNearyou (){
 
     const Navigator = useNavigate();
+
+    const [text] = useTypewriter({
+        words: ["....", "......", "........"],
+        loop: {}, // Infinite loop
+        delaySpeed: 2000, // Delay between loops
+        typeSpeed: 100, // Speed of typing
+        deleteSpeed: 50, // Speed of deleting
+    });
 
     return (
         <div>
@@ -26,7 +35,7 @@ function FindDoctorNearyou (){
                     <button class="search-button">
                         <IoIosSearch />
                     </button>
-                    <input type="text" class="search-input" placeholder="Search..."/>
+                    <input type="text" class="search-input" placeholder={`Search ${text}`}/>
                 </div>
 
             </div>
