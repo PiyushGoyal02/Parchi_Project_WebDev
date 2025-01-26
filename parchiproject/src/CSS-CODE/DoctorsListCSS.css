@@ -1,104 +1,407 @@
-.BlueShadebox{
-    background-color: #008080;
-    height: 50px;
-    width: 100%;
-    margin-top: 50px;
+.WebsiteCodeDoctorList {
+  display: block;
 }
 
-.SevenSixtySevenText-BookAppointmentText{
-    /* display: flex;
+.MobilePhoneFindDoctorYourAfterClick {
+  display: none;
+}
+
+.BlueShadebox {
+  background-color: #008080;
+  height: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.SevenSixtySevenText-BookAppointmentText {
+  /* display: flex;
     align-items: center; */
-    margin-top: 50px;
-    margin-left: 70px;
-    line-height: 5px;
+  margin-top: 50px;
+  margin-left: 70px;
+  line-height: 5px;
 }
 
 .SevenSixtySevenText-BookAppointmentText h1 {
-    font-size: 27px;
-    font-weight: 500;
+  font-size: 27px;
+  font-weight: 500;
 }
 
-.VerifiedIcon-Text{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.VerifiedIcon-Text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .VerifiedIcon-Text p {
-    font-size: 17px;
+  font-size: 17px;
 }
 
-.DoctorsImage{
-    width: 220px;
-    height: 220px;
-    border-radius: 100%;
-    object-fit: cover;
-    object-position: center;
+.DoctorsImage {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.HR-Tag{
-    margin: 3%;
+.HR-Tag {
+  margin: 3%;
 }
 
-.DoctorsDetailsDiv{
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    margin-left: 90px;
-    margin-top: 40px;
-    gap: 15px;
-    line-height: 5px;
+.DoctorsDetailsDiv {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 90px;
+  margin-top: 40px;
+  gap: 15px;
+  line-height: 5px;
 }
 
 .DoctorTextContact .CosmeticDental {
-    color: #008080;
-    font-size: 22px;
+  color: #008080;
+  font-size: 22px;
 }
 
-.DoctorTextContact span{
-    font-weight: 300;
+.DoctorTextContact span {
+  font-weight: 300;
 }
 
 .BoldSection {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.Thumbup-NinetyEightText{
-    width: 60px;
-    height: 25px;
+.Thumbup-NinetyEightText {
+  width: 60px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.Button-PatientText {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ImageTextContant-BookAppointmentButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BookAppointmentButton {
+  width: 180px;
+  height: 50px;
+  background-color: #008080;
+  border-style: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: white;
+  margin-right: 150px;
+}
+
+.BookAppointmentButton:hover {
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+/* Only For Mobile Phone CSS code */
+
+@media (max-width: 782px) {
+  .WebsiteCodeDoctorList {
+    display: none;
+  }
+
+  .MobilePhoneFindDoctorYourAfterClick {
+    display: block;
+  }
+
+  .FindYourDocotrHeading {
+    background-color: #008080;
+    height: 70px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .FindYourDocotrHeading .BackIocn-FindYourDoctorText {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .FindYourDocotrHeading .LocationName-DownIcon {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .TwoButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+  }
+
+  .PlusHouseCircle {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-}
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: #008080;
+    border-radius: 100px;
+  }
 
-.Button-PatientText{
+  .HouseIocn-InClinictext {
+    gap: 5px;
     display: flex;
     align-items: center;
-    gap: 15px;
-}
+  }
 
-.ImageTextContant-BookAppointmentButton{
+  .ButtonCSSCode {
+    border-radius: 5px;
+    border-style: none;
+    padding: 1%;
+    width: 35%;
+    background-color: #008080;
+    color: white;
+  }
+
+  .ButtonCSS-VideoConsultation {
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    padding: 1%;
+    width: 35%;
+    background-color: white;
+    color: black;
+  }
+
+  .HouseIocn-VideoConsultation {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .VideoCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadada;
+    height: 30px;
+    width: 30px;
+    color: #008080;
+    border-radius: 100px;
+  }
+
+  .HorizentalSwipeOptions {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px;
+    gap: 10px;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #ccc transparent; /* Custom scrollbar colors */
+  }
+
+  /* Custom scrollbar for Chrome, Edge, Safari */
+  .HorizentalSwipeOptions::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .HorizentalSwipeOptions::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+  }
+
+  .HorizentalSwipeOptions::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .TextoptionsDiv {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    white-space: nowrap; /* Ensure no text wrapping */
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fff;
+  }
+
+  .TextoptionsDiv:hover {
+    background-color: #f0f0f0; /* Hover effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* DoctorCard.css */
+
+  .doctor-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+
+  .doctor-card-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .DoctorDetails {
+    line-height: 0.8;
+  }
+
+  .doctor-card-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+  }
+
+  .doctor-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .doctor-card-stats {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+  }
 
-.BookAppointmentButton{
-    width: 180px;
-    height: 50px;
+  .doctor-card-stats p {
+    font-size: 15px;
+  }
+
+  .recommendation-percentage {
+    /* border: 1px solid black; */
+    background-color: #28a745;
+    border-radius: 5px;
+    color: white;
+    padding: 1.5%;
+  }
+
+  .rating-value {
+    /* border: 1px solid black; */
+    background-color: #008080;
+    border-radius: 5px;
+    color: white;
+    padding: 1.5%;
+  }
+
+  .doctor-card-recommendation {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .doctor-card-rating {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .doctor-card-title,
+  .doctor-card-experience {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .doctor-card-stories {
+    font-size: 14px;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  .PractoAssuredButton {
+    padding: 1.5%;
     background-color: #008080;
     border-style: none;
-    border-radius: 5px;
-    transition: 0.5s;
     color: white;
-    margin-right: 150px;
-}
+    border-radius: 5px;
+  }
 
-.BookAppointmentButton:hover{
-    border-radius: 10px;
-    color: black;
+  .stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .stat-box .stat-value {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .stat-box .stat-value-green {
+    color: #28a745;
+  }
+
+  .stat-box .stat-value-blue {
+    background-color: #e3f2fd;
+    color: #007bff;
+    padding: 4px 8px;
+    border-radius: 8px;
+  }
+
+  .doctor-card-info {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .doctor-card-actions {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .doctor-card-actions button {
+    width: max-content;
+    padding: 12px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
     cursor: pointer;
-    transition: 0.5s;
-    font-weight: 500;
+  }
+
+  .contact-clinic-button {
+    background-color: #28a745;
+    color: white;
+  }
+
+  .book-visit-button {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .doctor-card-availability {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+  }
+
+  .doctor-card-availability span {
+    color: #333;
+    font-weight: bold;
+  }
 }

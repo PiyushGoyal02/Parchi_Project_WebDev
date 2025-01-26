@@ -5,14 +5,17 @@ import Depreesion from "../../Assets/12-mental-wellness.png"
 import GirlsPeriods from "../../Assets/irregular-painful+period.png"
 import Performance from "../../Assets/top-speciality-sexology.svg"
 import ChildNotFelling from "../../Assets/top-speciality-pediatric.svg"
+import { useNavigate } from "react-router-dom"
 
 function HorizantalSlider (){
+
+    const Navigator = useNavigate();
     return (
         <div>
 
             <div className="ProblemIconParentDiv">
 
-                <div className="ProblemIconDiv">
+                <div onClick={() => Navigator('/doctorslist')} className="ProblemIconDiv">
                     <img
                         src={AcneAndPimple}
                         className="ProblemIcons"
