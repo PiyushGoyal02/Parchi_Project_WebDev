@@ -288,7 +288,7 @@ function DoctorsList() {
           </div>
           <div className="doctor-card-actions">
             <button className="contact-clinic-button">Contact Clinic</button>
-            <button className="book-visit-button">Book Clinic Visit</button>
+            <button onClick={() => Navigator("/timeslots")} className="book-visit-button">Book Clinic Visit</button>
           </div>
           <div className="doctor-card-availability">
             Next Available at: <span>10:00 AM, tomorrow</span>
@@ -337,5 +337,6 @@ function DoctorsList() {
     </div>
   );
 }
+
 
 export default DoctorsList;

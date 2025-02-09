@@ -1,0 +1,78 @@
+@media (max-width: 782px) {
+  .HaderContent {
+    background-color: #008080;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    padding-left: 15px;
+  }
+
+  .HaderContent FaAngleLeft{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .HaderContent p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .AppointmentCancel {
+    margin-left: 35px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .doctor-info {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .reason-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .radio-label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+
+  .radio-label input {
+    margin-right: 10px;
+  }
+
+  .cancel-btn {
+    width: 100%;
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+  }
+}

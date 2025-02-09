@@ -7,6 +7,9 @@ import DoctorsList from './Components/DoctorsList';
 import BookInClinicAppointment from './Components/BookInClinicAppointment';
 import CancelAppointment from './Components/CancelAppointment';
 import AfterSearchButtonClickInFindDrNearYouMobilePhone from './Components/AfterSearchButtonClickInFindDrNearYouMobilePhone';
+import TimeSlots from './Components/TimeSlots';
+import WhyWeCancelAppointment from './Components/WhyWeCancelAppointment';
+import Cancellation from './Components/Cancellation';
 
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
         <Route path='/boookinclinicappointment' element={<BookInClinicAppointment/>}></Route>
         <Route path='/cancelAppointment' element={<CancelAppointment/>}></Route>
         <Route path='/afterclicksearchbuttoninfindoctors' element={<AfterSearchButtonClickInFindDrNearYouMobilePhone/>}></Route>
+        <Route path='/timeslots' element={<TimeSlots/>}></Route>
+        <Route path='/whywecancelappointment' element={<WhyWeCancelAppointment/>}></Route>
+        <Route path='/cancel' element={<Cancellation/>}></Route>
       </Routes>
     </div>
   )

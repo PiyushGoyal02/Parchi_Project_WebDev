@@ -1,0 +1,62 @@
+/* App.css */
+
+@media (max-width: 782px) {
+  .container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .date-selector {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  .date-selector button {
+    background: lightgray;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .slot-section {
+    margin-top: 20px;
+  }
+
+  .slot-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .slot {
+    background-color: white;
+    border: 1px solid teal;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+}
