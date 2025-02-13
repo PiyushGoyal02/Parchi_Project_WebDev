@@ -1,9 +1,12 @@
 import React from "react";
 import "../CSS-CODE/TimeSlotsCSS.css"
 import DrImage from "../Assets/DSC03239.jpeg"
+import { useNavigate } from "react-router-dom";
 
 
 function TimeSlots() {
+
+  const Navigator = useNavigate();
 
   const slots = {
     Morning: ["10:30 AM", "10:45 AM", "11:00 AM", "11:15 AM"],
@@ -39,7 +42,7 @@ function TimeSlots() {
         {Object.entries(slots).map(([timeOfDay, times]) => (
           <div key={timeOfDay} className="slot-section">
             <h4>{timeOfDay} 4 slots</h4>
-            <div className="slot-grid">
+            <div onClick={() => Navigator('/boookinclinicappointment')} className="slot-grid">
               {times.map((time, index) => (
                 <button key={index} className="slot">
                   {time}

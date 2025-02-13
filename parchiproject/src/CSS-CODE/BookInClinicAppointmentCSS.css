@@ -1,3 +1,11 @@
+.BookInClinic-Code-Website{
+  display: block;
+}
+
+.BookInClinic-Code-Mobile{
+  display: none;
+}
+
 /* Parent Container */
 .ParentDivBookInClinic {
   background-color: #f0f0f5;
@@ -97,17 +105,6 @@ hr {
   font-weight: normal;
   color: #555;
 }
-
-/* .RightSideSectionBookInClinic{
-    background-color: #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #333;
-    width: 350px;
-    height: 500px;
-} */
 
 .RightSideSectionBookInClinic {
   padding: 20px;
@@ -299,11 +296,6 @@ hr {
     padding: 15px;
   }
 
-  .ApplySectionBox {
-    flex-direction: column;
-    gap: 10px;
-  }
-
   .PaymentActions {
     flex-direction: column;
     gap: 10px;
@@ -442,4 +434,245 @@ hr {
 .reschedule-button {
   background-color: #008080;
   color: #fff;
+}
+
+
+
+
+/* Mobile Phone */
+
+@media (max-width: 782px) {
+  .BookInClinic-Code-Website{
+    display: none;
+  }
+
+  .BookInClinic-Code-Mobile{
+    display: block;
+  }
+
+  .ContentSection{
+    padding: 15px;
+  }
+
+  .Heading-Text{
+    background-color: #008080;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 1%;
+  }
+
+  .Heading-Text .Lefticon{
+    font-size: 25px;
+  }
+
+  .Heading-Text p{
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .DrsImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  }
+
+  .DrImage-DetailsText{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+.DrDetailsText {
+  background: #fff; /* White background */
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 350px; /* Adjust width as needed */
+  font-family: Arial, sans-serif;
+}
+
+.DrDetailsText p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.DrDetailsText p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.Texts {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between elements */
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.Texts p {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.Texts svg {
+  font-size: 18px;
+  color: #008080; /* Teal color */
+}
+
+  .GreyLine{
+    height: 10px;
+    background-color: #dadada;
+  }
+
+  .AppointmentDetails{
+    line-height: 1px;
+    margin-top: -1.8%;
+    line-height: 0.1px;
+  }
+
+  .AppointmentDetails .AppointmentDetails-Text {
+    font-weight: 500;
+
+  }
+
+  .ClinicHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+  }
+
+  .ClinicDetails{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SuranaSethiaText{
+    margin-top: -1%;
+    font-weight: 500;
+  }
+
+  .BillDetails{
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .BillingRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .WeCarefor{
+    color: #008080;
+  }
+
+  .TotalPayable{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Savings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px dotted #008080;
+    background-color: #b9f3f3;
+    color: #008080;
+    padding: 20px;
+    height: 15px;
+    border-radius: 5px;
+  }
+
+  .Savings p {
+    font-size: 18px;
+  }
+
+  .Savings .BsBank2{
+    font-size: 20px;
+  }
+
+  .Savings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .PGImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: rgb(34, 33, 33);
+    color: whitesmoke;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #dadada;
+    background-color: #dadada;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .NameText-ClinicAppointment{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1px;
+  }
+
+  .flex-container .Section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .text{
+    font: 15px;
+  }
+
+  .bold-text{
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .change-button{
+    color: #008080;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .appointment-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5px
+    margi
+  }
+
+  .price-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .confirm-button{
+    background-color: #008080;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+  }
 }
